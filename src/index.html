@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signin-signup</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id="container" class="container">
+        <div class="form-container sign-up-container">
+            <form action="#">
+                <h1>Crie sua Conta</h1>
+                <div class="social-container">
+                    <a class="social" href="#">
+                        <i class="fab fa-facebook-f">
+                        </i>
+                    </a>
+
+                    <a class="social" href="#">
+                        <i class="fab fa-google-plus-g">
+
+                        </i>
+                    </a>
+
+                    <a class="social" href="#">
+                        <i class="fab fa-linkedin-in">
+
+                        </i>
+                    </a>
+                </div>
+                <span>Ou use seu email para se registrar</span>
+                <input type="text" placeholder="nome">
+                <input type="text" placeholder="email">
+                <input type="text" placeholder="senha">
+                <button onclick="InputEvent">Cadastrar</button>
+            </form>
+        </div>
+
+        <div class="form-container sign-in-container">
+            <form action="#">
+                <h1>Login</h1>
+                <div class="social-container">
+                    <a class="social" href="#">
+                        <i class="fab fa-facebook-f">
+                        </i>
+                    </a>
+
+                    <a class="social" href="#">
+                        <i class="fab fa-google-plus-g">
+
+                        </i>
+                    </a>
+
+                    <a class="social" href="#">
+                        <i class="fab fa-linkedin-in">
+
+                        </i>
+                    </a>
+                </div>
+            <span>Entre com sua conta</span>
+            <input type="text" placeholder="email">
+            <input type="text" placeholder="senha">
+            <a href="#">Esqueceu sua senha?</a>
+            <button onclick="InputEvent">Login</button>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>Bem vindo de volta!</h1>
+                    <p>
+                        Para se manter conectado conosco, faça login com suas informações pessoais
+                    </p>
+                    <button id="signIn" class="ghost">Faça login</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>Olá, Amigo!</h1>
+                    <p>Digite seus dados pessoais e começe a jornada conosco</p>
+                    <button id="signUp" class="ghost">Inscreva-se</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>
+            Criado Por
+            <i class="fa fa-heart">
+            </i>
+            <a target="blank" href="https://www.linkedin.com/in/marcusv-cordeirosilva/">Marcus Vinicius</a>
+            .
+        </p>
+    </footer>
+    <!--Script-->
+    <script src="script.js"></script>
+</body>
+</html>
